@@ -1,4 +1,4 @@
-#Write a function that returns the greatest values of a gives array of numbers
+#Write a function that returns the greatest value of a gives array of numbers
 
 #input [3, 6, 33, 2, 1, 10]
 #output 33
