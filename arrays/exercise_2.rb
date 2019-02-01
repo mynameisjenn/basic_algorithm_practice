@@ -3,7 +3,7 @@
 #input [3, 6, 33, 2, 1, 10]
 #output 33
 
-arr = [3, 6, 33, 2, 1, 10]
+arr = [55, 6, 33, 2, 101, 44]
 max_value = 0
 
 arr.each do |i|

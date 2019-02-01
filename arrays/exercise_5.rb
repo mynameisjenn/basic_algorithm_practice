@@ -4,11 +4,11 @@
 #input [3, 4, 6, 7, 8, 11]
 #output [11, 8, 7, 6, 4, 3]
 
-array = [3, 4, 6, 7, 8, 11]
+arr = [3, 4, 6, 7, 8, 11]
 reversed = [ ]
 
-array.length.times do 
-	reversed << array.pop
+arr.length.times do 
+	reversed << arr.pop
 end
 
 p reversed
