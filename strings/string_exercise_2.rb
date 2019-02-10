@@ -9,7 +9,7 @@ str = "ke$ha is a pop $inger"
 check = ""
 str.each_char do |char|
 	if char == "$"
-		check << el
+		check << char
 		break
 	end
 end
