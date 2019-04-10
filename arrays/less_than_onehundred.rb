@@ -15,18 +15,11 @@
 
 
 def less_than_onehundred(array)
-    array_less_than_onehundred = []
-    index = 0
-    
-    while index < array.length
-        if array[index] < 100
-            array_less_than_onehundred << array[index]
-        end
-        index += 1
+    array.select do |element|
+        element < 100
     end
-    return array_less_than_onehundred 
 end
 
-p less_than_onehundred([99, 101, 88, 4, 2000, 50])
+p less_than_onehundred([99, 101, 88, 4, 200, 50, 88, 11, 44, 22, 99, 124])
     
 
