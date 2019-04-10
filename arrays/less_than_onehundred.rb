@@ -20,6 +20,6 @@ def less_than_onehundred(array)
     end
 end
 
-p less_than_onehundred([99, 101, 88, 4, 200, 50, 88, 11, 44, 22, 99, 124])
+p less_than_onehundred([77, 24, 453, 112, 88, 4, 200, 50, 88, 11, 44, 22, 99, 124])
     
 
